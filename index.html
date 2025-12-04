@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portofolio — Fauzul Iqram</title>
+  <meta name="description" content="Portofolio pribadi — Nama Anda. Web developer / Designer / Freelancer." />
+
+  <!-- Simple reset + modern minimal styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        
+          <div style="font-weight:700">Fauzul Iqram</div>
+          <div style="font-size:12px;color:var(--muted)">SD · SMP · SMA</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">Tentang Saya</a>
+        <a href="#projects">Hobi</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="card intro">
+          <h1>Halo, saya Fauzul Iqram 👋</h1>
+          <p>Saya seorang Mahasiwa aktif Universitas Bani Saleh,Fakultas Teknologi Informasi dan Digital, Prodi Manajemen Informatika, saya masih semester 1.</p>
+
+          <div class="cta">
+            <a class="btn" href="#contact">Kontak Saya</a>
+            <a style="margin-left:10px;color:var(--muted);font-weight:700;text-decoration:none" href="#projects">Lihat Hobi →</a>
+          </div>
+
+          <div style="margin-top:18px;color:var(--muted)">
+            <strong>Lokasi</strong>: Bekasi, Indonesia · <strong>Mahasiswa</strong>
+          </div>
+
+          <section id="projects" style="margin-top:20px">
+            <h2 style="margin:8px 0">Hobi</h2>
+            <div class="projects">
+              <article class="proj">
+                <h3>Rebahan</h3>
+                <p style="margin:0;color:var(--muted);font-size:14px">Kegiatan berbaring santai, biasanya di tempat tidur atau sofa, untuk beristirahat tanpa melakukan aktivitas berat.</p>
+                <div style="margin-top:8px"><a href="#"></a></div>
+              </article>
+
+              <article class="proj">
+                <h3>Bersepeda</h3>
+                <p style="margin:0;color:var(--muted);font-size:14px">Kegiatan mengendarai sepeda dengan mengayuh pedal untuk berpindah tempat, baik sebagai olahraga, hobi, maupun sarana transportasi.</p>
+                <div style="margin-top:8px"><a href="#"></a></div>
+              </article>
+
+              <article class="proj">
+                <h3>Ngopi</h3>
+                <p style="margin:0;color:var(--muted);font-size:14px">Duduk santai menikmati suasana.</p>
+                <div style="margin-top:8px"><a href="#"></a></div>
+              </article>
+
+              <article class="proj">
+                <h3>Main</h3>
+                <p style="margin:0;color:var(--muted);font-size:14px">Menghilangkan rasa bosan.</p>
+                <div style="margin-top:8px"><a href="#"></a></div>
+              </article>
+            </div>
+          </section>
+        </div>
+
+        <aside class="card profile">
+          <div class="brand">
+    <!-- Logo di atas nama -->
+    <img src="c:\Users\ThinkPad\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\AF9E3A2A6E0B75204CB5F27AC7AA91DF\WhatsApp Image 2025-12-04 at 09.09.21_eb860300.jpg">
+
+          <div style="text-align:center">
+            <div style="font-weight:700">Fauzul Iqram</div>
+            <div style="font-size:13px;color:var(--muted)">SD SMP SMA</div>
+          </div>
+
+          <div style="margin-top:12px;width:100%">
+            <h4 style="margin:0 0 8px">Kontak</h4>
+            <div style="font-size:14px;color:var(--muted)">email: gaskencuy@gmail.com</div>
+            <div style="font-size:14px;color:var(--muted)">telp: +62 821 4334</div>
+          </div></a><a href="#"></a><a href="#"></a>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="card">
+        <h2>Tentang saya</h2>
+        <p style="color:var(--muted)">Saya ngantukan, tapi kalo dipaksa melek bisa. Gas trus kalo ada yang ngajak main.</p>
+      </section>
+
+      <section id="skills">
+        <div class="card">
+          <h2>Keahlian</h2>
+          <div class="skills" style="margin-top:10px">
+            <span class="skill">Bawa Motor</span>
+            <span class="skill">Main Poker</span>
+            <span class="skill">Main PS</span>
+            <span class="skill">Yapping</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="card">
+          <h2>Kontak</h2>
+          <p style="color:var(--muted)">Ingin Hubungi Saya? Isi formulir ini atau langsung kirim email.</p>
+
+          <form onsubmit="event.preventDefault();alert('Terima kasih — pesan terkirim! (demo)')" style="margin-top:12px;display:grid;gap:8px">
+            <input required placeholder="Nama" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit" />
+            <input required type="email" placeholder="Email" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit" />
+            <textarea required placeholder="Pesan Singkat" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit" rows="4"></textarea>
+            <button class="btn" type="submit">Kirim</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      © <span id="year"></span> Fauzul Iqram — Dibuat dengan cinta
+    </footer>
+  </div>
+
+  <script>
+    // small script untuk update tahun dan smooth scroll
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const t = document.querySelector(a.getAttribute('href'));
+        if(t){ e.preventDefault(); t.scrollIntoView({behavior:'smooth',block:'start'}); }
+      })
+    })
+  </script>
+</body>
+</html>
